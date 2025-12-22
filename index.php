@@ -41,7 +41,10 @@ document.addEventListener("DOMContentLoaded", () => { showTemplate(1); });
 </script>
 </head>
 <body>
+
 <div class="container">
+        <?php include "layouts/index-navbar.php"; ?>
+
     <h1>
         <img src="images/ass-logo.png" alt="ASS Logo">
         📝 Resume Builder – Choose a Template
@@ -51,17 +54,12 @@ document.addEventListener("DOMContentLoaded", () => { showTemplate(1); });
         <button onclick="showTemplate(2)">Template 2</button>
         <button onclick="showTemplate(3)">Template 3</button>
         <button onclick="showTemplate(4)">Template 4</button>
-        <button onclick="showTemplate(5)">Template 5</button>
     </div>
     <div class="templates-wrapper">
         <div id="t1" class="template-box"><?php include "templates/template1.php"; ?></div>
         <div id="t2" class="template-box"><?php include "templates/template2.php"; ?></div>
         <div id="t3" class="template-box"><?php include "templates/template3.php"; ?></div>
         <div id="t4" class="template-box"><?php include "templates/template4.php"; ?></div>
-        <div id="t5" class="template-box"><?php include "templates/template5.php"; ?></div>
-    </div>
-    <div style="text-align:center; margin-top:30px;">
-        <a href="logout.php" class="btn" style="background:#dc3545;">Logout</a>
     </div>
 </div>
 </body>
