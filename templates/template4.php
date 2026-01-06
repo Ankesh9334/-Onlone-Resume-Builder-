@@ -168,6 +168,7 @@ body{
                 <li contenteditable="false">HTML</li>
                 <li contenteditable="false">JavaScript </li>
                 <li contenteditable="false">CSS </li>
+                <li contenteditable="false">Laravel</li>
             </ul>
         </div>
 

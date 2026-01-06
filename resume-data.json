@@ -1,0 +1,11 @@
+{
+    "name": "Your Name",
+    "title": "Web Developer",
+    "email": "email@example.com",
+    "phone": "+91 98765 43210",
+    "location": "India",
+    "summary": "Write a short professional summary here.",
+    "skills": "HTML, CSS, JavaScript, PHP",
+    "experience": "Fresher \/ Experience details here",
+    "education": "B.Tech \/ BCA \/ MCA"
+}

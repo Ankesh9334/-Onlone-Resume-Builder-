@@ -57,7 +57,7 @@
 <div class="template4-wrapper">
     <h2>✨ Premium Pro Resume Template 4</h2>
 
-    <form action="generate_resume3.php" method="POST" enctype="multipart/form-data">
+    <form action="generate_resume2.php" method="POST" enctype="multipart/form-data">
         <input type="text" name="name" placeholder="Full Name" required>
         <input type="email" name="email" placeholder="Email Address" required>
         <input type="text" name="phone" placeholder="Phone Number" required>
